@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/blockstack-been-there/static/js/2.c2695c00.chunk.js"
   },
   {
-    "revision": "4280ff19c308ff672320e1cb16fb3c75",
+    "revision": "00d4dfb069e868aa67b9ba800516d1cb",
     "url": "/blockstack-been-there/index.html"
   }
 ];

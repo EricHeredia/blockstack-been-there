@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/blockstack-been-there/precache-manifest.9cc951fe49365fa9e32e95942a9c9f5b.js"
+  "/blockstack-been-there/precache-manifest.069e808544394d8be71a2b94ff3cbb60.js"
 );
 
 workbox.clientsClaim();
