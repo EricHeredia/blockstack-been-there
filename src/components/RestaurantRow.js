@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
 
 const RestaurantRow = (props) => {
-
   let restaurantData = JSON.parse(localStorage.getItem('restaurants'))
   let currentRestaurant = restaurantData.find(obj => obj.name === props.restaurant.name)
-
   const [checked, setChecked] = useState(currentRestaurant.checked)
-
   const onCheckChange = () => {
     if (checked) {
       currentRestaurant.checked = !checked

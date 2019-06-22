@@ -3,18 +3,13 @@ import './App.css'
 import GetResults from './components/GetResults'
 
 const App = () => {
-
   const [latLng, setLatLng] = useState([41.7962928, -88.19741479999999])
-
   useEffect(() => {
     const input = document.getElementById('autocomplete')
-
     const autocomplete = new window.google.maps.places.Autocomplete(input, 
       {types: ['(regions)'], componentRestrictions: {country: 'US'}})
-
     const autocompleteListener = autocomplete.addListener('place_changed', () => {
       let place = autocomplete.getPlace()
-
       if (!place.geometry) {
         // Not needed atm
         return
